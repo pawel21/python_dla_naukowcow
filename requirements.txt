@@ -1,0 +1,25 @@
+# Środowisko do zajęć 4: Ekosystem do analizy i wizualizacji danych w Pythonie
+# Wymaga Pythona 3.10 lub nowszego.
+# Instalacja:  pip install -r requirements.txt
+
+# Dane i obliczenia
+numpy>=1.24
+pandas>=2.0
+pyarrow>=14              # zapis i odczyt plików Parquet
+requests>=2.28           # pobieranie danych z portalu IMGW
+
+# Blok 1: statystyka
+scipy>=1.11              # od tej wersji testy t zwracają przedział ufności
+statsmodels>=0.14
+
+# Blok 2: ryciny do publikacji
+matplotlib>=3.7
+seaborn>=0.13
+
+# Blok 3: wykresy interaktywne i aplikacja
+plotly>=5.18
+streamlit>=1.30
+
+# Notebook
+jupyterlab>=4.0
+ipykernel>=6.25

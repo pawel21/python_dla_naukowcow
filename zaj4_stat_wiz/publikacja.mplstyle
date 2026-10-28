@@ -1,0 +1,29 @@
+# Styl rycin do czasopisma — wczytywany przez plt.style.use("publikacja.mplstyle")
+
+# Fonty: 7–8 punktów po wydruku w docelowym rozmiarze
+font.size: 8
+axes.titlesize: 8
+axes.labelsize: 8
+xtick.labelsize: 7
+ytick.labelsize: 7
+legend.fontsize: 7
+legend.frameon: False
+
+# Linie: nie cieńsze niż 0,5 punktu
+axes.linewidth: 0.6
+xtick.major.width: 0.6
+ytick.major.width: 0.6
+lines.linewidth: 1.0
+
+# Bez górnej i prawej ramki
+axes.spines.top: False
+axes.spines.right: False
+
+# Elementy same mieszczą się w figurze, bez przycinania jej rozmiaru
+figure.constrained_layout.use: True
+
+# Zapis: 600 punktów na cal dla rastrów, fonty osadzone w PDF i EPS
+savefig.dpi: 600
+pdf.fonttype: 42
+ps.fonttype: 42
+svg.fonttype: none

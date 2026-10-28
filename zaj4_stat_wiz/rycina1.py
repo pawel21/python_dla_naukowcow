@@ -15,7 +15,7 @@ import pandas as pd
 import seaborn as sns
 
 # ---- 1. Ustawienia: wszystko, co można zmienić, w jednym miejscu ----------
-DANE = Path("dane_imgw/lodz_warszawa_1991_2023.csv")
+DANE = Path("dane_imgw/lodz_warszawa_1991_2024.csv")
 WYNIKI = Path("ryciny")
 STYL = Path(__file__).with_name("publikacja.mplstyle")
 
